@@ -1,0 +1,150 @@
+---
+import X from '../assets/theme-images/icon-x.svg?component'
+
+const { content } = Astro.props
+---
+
+<dialog id="demo" class="fixed inset-0 bg-bs-surface-0 m-auto z-50 p-6 md:p-12 rounded-xl w-full max-w-[95%] md:max-w-4xl">
+
+  <form method="dialog" class="flex flex-col gap-6">
+
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <h2 class="text-2xl">{ content.title }</h2>
+      <button onclick="this.closest('dialog').close('close')" aria-label="Close"
+        class="bs-btn rounded-full !p-0 flex items-center justify-center h-10 w-10">
+        <X class="scale-75 opacity-75" width="32" height="32" />
+      </button>
+    </div>
+
+    <!-- Intro Text (Full width, top) -->
+    <div class="bs-body-text max-w-3xl text-left m-auto" set:html={ content.content }></div>
+
+    <!-- Form Inputs (3 Rows) -->
+    <div class="flex flex-col gap-4">
+
+      <!-- Row 1: Name + Phone -->
+      <div class="flex flex-col md:flex-row gap-4">
+        <input
+          id="name"
+          name="name"
+          type="text"
+          class="flex-1 border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
+          placeholder="Your name"
+        >
+        <input
+          id="phone"
+          name="phone"
+          type="tel"
+          class="flex-1 border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
+          placeholder="Your phone number"
+        >
+      </div>
+
+      <!-- Row 2: Company + Email -->
+      <div class="flex flex-col md:flex-row gap-4">
+        <input
+          id="company"
+          name="company"
+          type="text"
+          class="flex-1 border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
+          placeholder="Your company"
+        >
+        <input
+          id="email"
+          name="email"
+          type="email"
+          class="flex-1 border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
+          placeholder="Your email"
+        >
+      </div>
+
+      <!-- Row 3: Message -->
+      <div>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          class="w-full border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3 resize-none"
+          placeholder="Your message"
+        ></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="bs-btn form-input px-4 py-3 w-full md:w-auto self-start">
+        { content.cta }
+      </button>
+    </div>
+
+    <!-- Bottom Section: Address, Contact, Hours -->
+    <div class="flex flex-col md:flex-row justify-between text-sm text-bs-text-2 gap-4 md:gap-6 pt-4 border-t border-bs-surface-3 mt-4">
+
+      <div>
+        <strong>Address</strong><br>
+        3rd Floor, Syed Grand Center, Rd. 28,<br>
+        Sector 7, Uttara, Dhaka
+      </div>
+
+      <div>
+        <strong>Contact</strong><br>
+        Phone: +88 01701 614 923<br>
+        Email: info@cps-bd.com
+      </div>
+
+      <div>
+        <strong>Working Hours</strong><br>
+        Sun – Sat:<br>8am – 9pm
+      </div>
+
+    </div>
+
+    <!-- Google Map Embed -->
+    <div class="pt-6 md:pt-8">
+      <iframe
+        src="https://www.google.com/maps?q=CPS+Limited,+Shop+133-135,+3rd+Floor,+Syed+Grand+Center,+Road-28,+Dhaka+1230&output=embed"
+        width="100%"
+        height="220"
+        class="rounded-lg"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+  </form>
+
+</dialog>
+
+<style>
+
+html:has(dialog[open]) {
+  overflow: hidden;
+  backdrop-filter: blur(0);
+  scrollbar-gutter: stable;
+}
+
+dialog[open]::backdrop {
+  backdrop-filter: blur(50px);
+}
+
+@keyframes scale-up {
+  to {
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  dialog {
+    translate: 0 2rem;
+    scale: .8;
+  }
+
+  dialog[open] {
+    animation: scale-up forwards 1s;
+    animation-timing-function: var(--ease-bs-spring);
+  }
+}
+
+</style>

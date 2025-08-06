@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Why CPS LIMITED",
+    "sector": " OUR JOURNEY, MISSION & PHILOSOPHY.",
+    "content": "<strong>At CPS Limited, </strong>Mutual Growth is our motto. We build strong partnerships by providing exceptional customer service and comprehensive after-sales support, ensuring smooth operations and long-term success.  Experience seamless wholesale shopping with our dedicated customer service team, ensuring fast, reliable support for all your bulk order needs. Your satisfaction is our priority—efficient solutions, prompt responses, and personalized assistance every step of the way!",
+    "case_study_link": "",
+    "cta": "Become a Customer",
+    "image": "/content-images/hand.png",
+    "image_alt": "iPad showing spike.news website",
+    "bg": "bg-gradient-to-r from-indigo-500 to-purple-600"
+  },
+  {
+    "title": "BTEK.",
+    "sector": "",
+    "content": "BTek emerges as a prominent supplier offering a dual approach to power solutions—online and offline—specializing in Uninterruptible PowerSupply (UPS) systems and Lead Acid Batteries. Catering to both digital and physical storefronts, BTek ensures accessibility to reliable power backup solutions for diverse settings. Their UPS systems guarantee uninterrupted operations during power outages, while their Lead Acid Batteries stand as dependable energy storage options. With a commitment to quality and durability, BTek’s dual sales approach facilitates seamless access to essential power solutions, ensuring businesses and consumers have robust backup systems readily available both online and offline.",
+    "image": "/content-images/btek.png",
+    "image_alt": "btek",
+    "bg": "bg-gradient-to-r from-fuchsia-500 to-cyan-500"
+  },
+  {
+    "title": "XOC",
+    "sector": "",
+    "content": "XOC Technologies Inc. is a hardware brand committed to making high-performance gaming accessible to all by offering top-tier components at competitive prices. Specializing in DDR memory modules, solid-state drives (SSDs), NVMe storage solutions, and power supply units (PSUs), XOC designs its products to deliver exceptional performance without the premium cost. Their memory modules, including the Blade Series and Frost RGB, provide high-speed capabilities tailored for both gamers and professionals, while their SSD lineup, such as the Nitro SATA and HyperDrive NVMe, ensures fast load times and system responsiveness. Additionally, their Titan Series PSUs offer reliable and efficient power solutions for demanding gaming setups. Looking ahead, XOC is expanding its offerings to include GPUs, motherboards, and other essential components, striving to provide everything needed for a complete gaming experience. With a vision to make gaming as widespread as smartphones, XOC is dedicated to reaching players worldwide without compromising on quality or performance.",
+    "image": "/content-images/xoc.png",
+    "image_alt": "xoc",
+    "bg": "bg-gradient-to-r from-pink-500 to-yellow-500"
+  },
+  {
+    "title": "EVGA",
+    "sector": "",
+    "content": "EVGA, an industry stalwart since 1999, embodies innovation and quality in computer hardware. Renowned for their graphics cards like the GeForce RTX series and GTX line, they redefine gaming standards with cutting-edge technology like ray tracing. Their motherboards cater to diverse needs—speed for gamers, overclocking for enthusiasts, and stability for professionals. EVGA’s power supplies ensure reliability for high-performance setups. Beyond their stellar products, EVGA’s commitment to customer service, technical support, and community engagement elevates them from hardware provider to trusted partner, emphasizing an unwavering dedication to enhancing users’ tech experiences.",
+    "image": "/content-images/evga.png",
+    "image_alt": "evga",
+    "bg": "bg-gradient-to-r from-fuchsia-500 to-cyan-500"
+  }
+]

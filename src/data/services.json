@@ -1,0 +1,37 @@
+[
+  {
+    "title": " Computer Components ",
+    "content": "<strong>We specialize in providing high-quality computer components, ensuring performance, reliability, and value for all types of users. </strong> ",
+    "cta": "Get in Touch",
+    "image": "/content-images/pc components.png",
+    "image_alt": ""
+  },
+  {
+    "title": "UPS/IPS Battery.",
+    "content": "<strong>We offer high-quality UPS, IPS, and batteries to provide reliable Power Solutions for Uninterrupted Performance. </strong>",
+    "cta": "Get in Touch",
+    "image": "/content-images/battery.png",
+    "image_alt": ""
+  },
+  {
+    "title": " Enterprise Solutions ",
+    "content": "<strong>We provide all-in-one enterprise PC solutions tailored for businesses, ensuring efficiency, reliability, and scalability. </strong>",
+     "cta": "Get in Touch",
+    "image": "/content-images/enterprise.png",
+    "image_alt": ""
+  },
+  {
+    "title": " Software Solutions ",
+    "content": "<strong>We offer a wide range of software solutions to enhance productivity, security, and efficiency for businesses and individuals.</strong>",
+    "cta": "Get in Touch",
+    "image": "/content-images/software dev.png",
+    "image_alt": ""
+  },
+  {
+    "title": "  Prebuild Computers  ",
+    "content": "<strong>We offer a wide range of prebuilt PCs designed to meet your need. Our ready-to-use systems come with high-quality components, and reliable warranties.</strong>",
+    "cta": "Get in Touch",
+    "image": "/content-images/prebuilt.png",
+    "image_alt": ""
+  }
+]

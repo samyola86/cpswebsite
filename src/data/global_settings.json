@@ -1,0 +1,29 @@
+{
+  "title": "CPS LIMITED",
+  "description": "A LEADING DISTRIBUTOR OF PC COMPONENTS",
+  "base_url": "https://cps-bd.com",
+  "demo": {
+    "title": "Get in Touch",
+    "content": "<strong>If you have any questions, need support, or have an RMA request, </strong>,please do not hesitate to contact us. We are here to help you in any way we can.",
+    "cta": "Submit"
+  },
+  "theme_color": "#18181b",
+  "nav": [
+    {
+      "title": "Services",
+      "link": "/#services"
+    },
+    {
+      "title": "Partners",
+      "link": "/partners"
+    },
+    {
+      "title": "Warranty Policy",
+      "link": "/#faq"
+    },
+    {
+      "title": "About Us",
+      "link": "/credits"
+    }
+  ]
+}

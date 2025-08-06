@@ -1,0 +1,33 @@
+---
+import CardCaseStudy from './CardCaseStudy1.astro'
+
+const { title, caseStudies } = Astro.props
+---
+
+<section class="bs-container bs-mt-lg" id="case-studies">
+
+  <!-- Title -->
+  { title && <h2 class="bs-h2 text-center md:text-left">{ title }</h2> }
+
+
+  <!-- Second row: duplicated CaseStudy[1] and CaseStudy[2] -->
+  <div class="mt-8 grid lg:grid-cols-3 gap-8">
+
+    {/* Column 1: CaseStudy[1] */}
+    { caseStudies?.[1] && (
+      <CardCaseStudy caseStudy={caseStudies[1]} />
+    )}
+
+    {/* Column 2: CaseStudy[2] */}
+    { caseStudies?.[1] && (
+      <CardCaseStudy caseStudy={caseStudies[2]} />
+    )}
+
+    {/* Column 3: CaseStudy[3] */}
+    { caseStudies?.[2] && (
+      <CardCaseStudy caseStudy={caseStudies[3]} />
+    )}
+
+  </div>
+
+</section>

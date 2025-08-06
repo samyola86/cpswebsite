@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Why CPS LIMITED",
+    "sector": " OUR JOURNEY, MISSION & PHILOSOPHY.",
+    "content": "<strong>At CPS Limited, </strong>Mutual Growth is our motto. We build strong partnerships by providing exceptional customer service and comprehensive after-sales support, ensuring smooth operations and long-term success.  Experience seamless wholesale shopping with our dedicated customer service team, ensuring fast, reliable support for all your bulk order needs. Your satisfaction is our priority—efficient solutions, prompt responses, and personalized assistance every step of the way!",
+    "case_study_link": "",
+    "cta": "Become a Customer",
+    "image": "/content-images/hand.png",
+    "image_alt": "iPad showing spike.news website",
+    "bg": "bg-gradient-to-r from-indigo-500 to-purple-600"
+  },
+  {
+    "title": "BTEK.",
+    "sector": "",
+    "content": "",
+
+    "case_study_link": "https://pixelate.pictures",
+    "cta": "Visit pixelate.pictures",
+    "image": "/content-images/xoc.png",
+    "image_alt": "iPad showing pixelated wave painting",
+    "bg": "bg-gradient-to-r from-fuchsia-500 to-cyan-500"
+  },
+  {
+    "title": "XOC",
+    "sector": "",
+    "content": "",
+    "case_study_link": "https://www.brighton.dog",
+    "cta": "Visit brighton.dog",
+    "image": "/content-images/brighton.dog.avif",
+    "image_alt": "iPad showing the web page of brighton.dog",
+    "bg": "bg-gradient-to-r from-pink-500 to-yellow-500"
+  },
+  {
+    "title": "EVGA",
+    "sector": "",
+    "content": "",
+    "case_study_link": "https://pixelate.pictures",
+    "cta": "Visit pixelate.pictures",
+    "image": "/content-images/xoc.png",
+    "image_alt": "iPad showing pixelated wave painting",
+    "bg": "bg-gradient-to-r from-fuchsia-500 to-cyan-500"
+  }
+]
